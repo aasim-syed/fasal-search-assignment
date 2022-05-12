@@ -5,7 +5,7 @@ import { Container, Row } from "react-bootstrap";
 const Main = () => {
   return (
     <Container id="cont">
-      <Row md={2} lg={7}>
+      <Row md={2} lg={5}>
         <MoviesGrid />
       </Row>
     </Container>

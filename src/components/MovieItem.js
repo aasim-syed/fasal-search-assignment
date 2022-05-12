@@ -15,6 +15,7 @@ const MovieItem = (props) => {
         style={{ textDecoration: "none" }}
       >
         <div className="cardtitle">{props.original_title}</div>
+        
       </Link>
     </div>
   );

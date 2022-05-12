@@ -35,10 +35,11 @@
 }
 
 .cardgrid:hover {
-    box-shadow: 5px 5px 30px 10px rgb(223, 216, 216);
+    box-shadow: 5px 5px 20px 10px rgb(13, 204, 45);
     transition-duration: 1s;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    margin-top: -1px;
 }
 
 .cardtitle {
