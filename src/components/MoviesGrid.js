@@ -12,6 +12,7 @@ const MoviesGrid = () => {
         original_title={item.original_title}
         release_date={item.release_date}
         poster_path={item.poster_path}
+        ratings={item.vote_average}
       />
     )
   }
