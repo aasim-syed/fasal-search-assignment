@@ -24,6 +24,7 @@ const SearchBox = (props) => {
 
   const handleMovies = (movies) => {
     fetch(constructUrl("search/movie", movies))
+      
       .then((response) => response.json())
       .then((data) => dispatch({ type: "SET_Movies", payload: data.results }));
   };

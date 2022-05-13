@@ -7,9 +7,12 @@
     font-size: 20px;
     width: 100%;
 }
-
+.drp{
+    color: rgb(14, 13, 13);
+    background: url("https://cdn.dribbble.com/users/1099127/screenshots/16448893/media/19b31daa4920598f68473beac4a4815d.gif") ;
+}
 .Navbar {
-    color: black;
+    color: rgb(219, 206, 206);
     font-size: 18px;
 }
 
@@ -71,7 +74,7 @@
 }
 
 #drop {
-    color: rgb(172, 168, 168);
+    color: rgb(241, 232, 232);
 }
 
 #drop2 {
@@ -87,7 +90,7 @@
  
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:1000px) {
      .search {
     margin-top:110px;
     margin-left: -160px;
@@ -95,6 +98,7 @@
     .logotxt{
         display: none;
     }
+   
 }
 #listItems1 {
     color: rgb(10, 10, 10);
@@ -236,7 +240,7 @@ span {
     margin-left: 70px;
     margin-top: 50px;
     box-shadow: 3px 3px 15px 3px rgb(223, 216, 216);
-    border: 2px solid rgb(223, 216, 216);
+    
 }
 
 #tutitle {
@@ -279,7 +283,33 @@ span {
     margin: 10px;
     margin-top: 30px;
 }
+@media screen and (max-width:1000px) {
+    .actorname {
+        margin-top: 330px;
+        margin-left: -210px; 
+    }
+    .birthdate {
+        margin-top: 3px;
+        margin-left: -210px;
+    }
+    .actdo  {
+        text-align: end;
+        margin-top: 30px;
+        margin-left: -210px;        
+        font-size: 12px;
+    }
+    .back2 {
+        margin-left: -400px;
+    }
+    .image3 {
+        margin: auto;
+        border-radius: 50%;
+        height: 35vh;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
 
+}
 .back2 {
     margin-top: 30px;
     color: rgb(172, 168, 168);

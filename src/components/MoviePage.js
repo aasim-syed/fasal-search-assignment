@@ -80,9 +80,9 @@ const MoviePage = (props) => {
               <p>
                 {" "}
                 {movieCast.map((actor) =>
-                  actor.cast_id <= 15 ? (
+                  actor.cast_id >= 15 ? (
                     <Link to={`/actor/${actor.id}`}> {actor.name} ; </Link>
-                  ) : null
+                  ) : <h1></h1>
                 )}{" "}
               </p>
 
