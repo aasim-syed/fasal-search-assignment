@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { MdArrowBack } from "react-icons/md";
 
+
 const TMDB_BASE_URL = `https://api.themoviedb.org/3`;
+
 const constructUrl = (path) => {
   return `${TMDB_BASE_URL}/person/${path}?api_key=${atob(
     "ZDJmYTdhZDFlMjZhZjA4NDdkMzQ5ZDdkYmQ1ZjkzZTU="

@@ -2,7 +2,7 @@
 .App {
     font-family: sans-serif;
     text-align: center;
-    background: black;
+    background: url("https://64.media.tumblr.com/ac38fc1b683b3f563ffb14de926240c1/tumblr_nue2wxuqqA1sb5osho1_540.gifv") ;
     font-family: 'Share Tech Mono', monospace;
     font-size: 20px;
     width: 100%;
@@ -13,9 +13,10 @@
     font-size: 18px;
 }
 
-.image {
+.logotxt {
     margin-top: 30px;
     margin-left: 25px;
+    color: chartreuse;
 }
 
 .App {
@@ -32,10 +33,25 @@
     margin-top: 30px;
     margin-bottom: 30px;
     transition-duration: 1s;
+    animation-name: bounce;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.05, 0.05, 1, .05);
+    animation-iteration-count: infinite;
+}
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 150px, 0);
+        transform: translate3d(0, 150px, 0);
+    }
 }
 
 .cardgrid:hover {
-    box-shadow: 5px 5px 20px 10px rgb(13, 204, 45);
+    box-shadow: 5px 5px 20px 10px rgb(229, 20, 5);
     transition-duration: 1s;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -67,8 +83,19 @@
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+   
+ 
 }
 
+@media screen and (max-width:700px) {
+     .search {
+    margin-top:110px;
+    margin-left: -160px;
+    } 
+    .logotxt{
+        display: none;
+    }
+}
 #listItems1 {
     color: rgb(10, 10, 10);
 }

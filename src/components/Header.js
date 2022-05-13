@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import SearchBox from "./SearchBox";
 import { Link } from "react-router-dom";
 import { StateContext } from "../State";
-import logo from "./Logo2.png";
+
 
 const Header = () => {
   const [currentGenre, setCurrentGenre] = useState("");
@@ -17,13 +17,11 @@ const Header = () => {
     { id: 16, name: "Animation" },
     { id: 35, name: "Comedy" },
     { id: 80, name: "Crime" },
-    { id: 99, name: "Documentary" },
     { id: 18, name: "Drama" },
     { id: 10751, name: "Family" },
     { id: 14, name: "Fantasy" },
     { id: 36, name: "History" },
     { id: 27, name: "Horror" },
-    { id: 10402, name: "Music" },
     { id: 9648, name: "Mystery" },
     { id: 10749, name: "Romance" },
     { id: 878, name: "Science Fiction" },
@@ -50,7 +48,7 @@ const Header = () => {
     <Navbar className="Navbar">
       <Link to="/">
         <Navbar.Brand>
-          <img alt="" src={logo} width="250" height="90" className="image" />{" "}
+          <h1 className="logotxt">THE BORING <br/> PROJECT🚀😂</h1>{" "}
         </Navbar.Brand>
       </Link>
       <Nav id="drop2">
@@ -60,6 +58,7 @@ const Header = () => {
         >
           <Render />
         </NavDropdown>
+        
       </Nav>
       <SearchBox />
     </Navbar>
