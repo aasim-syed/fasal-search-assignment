@@ -3,7 +3,7 @@
 # Project Overview ⚡
 # Whats brewing?? ☕🍵🤔
 
-THIS IS  AN ASSIGNMENT/TASK BY https://www.janani.life/
+THIS IS  AN ASSIGNMENT/TASK BY https://fasal.co/
 
 ## Demo
 
